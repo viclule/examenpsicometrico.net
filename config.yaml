@@ -85,14 +85,14 @@ params:
     features:
     - title: Habilidad matemática
       text: Los exámenes de razonamiento numérico son de los más comunes dentro de la familia de los exámenes de habilidad. En una de estas pruebas puedes esperar que se te ofrezca información numérica, tal como tablas, gráficas o series numéricas.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
+      # Icon (from /images/illustrations/)
+      icon: metematica_simbolo.png
     - title: Habilidad verbal
       text: En un examen de razonamiento verbal se mide tu habilidad para entender la lógica entre varios enunciados y para interpretar ideas en un texto o pasaje. Es importante entender que este tipo de exámenes no miden tu conocimiento sobre un tema en particular.
-      icon: doc-sync
+      icon: verbal_simbolo.png
     - title: Razonamiento deductivo o abstracto
       text: En general, estos exámenes buscan medir tu capacidad de reconocer patrones geométricos. Además, de medir tu habilidad para trabajar con información que no te es familiar y encontrar soluciones. Normalmente, un buen resultado implica que la persona tiende a tener una buena capacidad para pensar conceptual- y analíticamente.
-      icon: mobile-feed
+      icon: abstracto_simbolo.jpg
   section_ctn_l_1:
     title: Explicaciones extensas y detalladas.
     subtitle: En mas de 50 páginas de contenido explica a detalle y con multitud de ejemplos los diferentes tipos de exámenes y ejercicios. En un lenguaje accesible para todos, es una de las mejores maneras de mejorar tu desempeño.
@@ -134,7 +134,7 @@ params:
     - name: Alejandra Marina
       quote: Estaba muy preocupada por el examen psicométrico para ingresar a la uni. La guía me ayudo a entender los conceptos, y el examen de prueba fue genial para saber que esperar. Espero les ayude tanto como a mi.
       job: Estudiante - Octubre 2019
-      img: mujer_joven.jpg
+      img: mujer_joven1.jpg
   section4_2:
     title: Mas opiniones de nuestros clientes
     subtitle: Tu opinión es importante, escribenos por Facebook.
