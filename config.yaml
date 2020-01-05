@@ -1,0 +1,210 @@
+baseURL: http://idoengineeringstuff.com/examenpsicometrico.net/
+publishDir: docs
+languageCode: en-us
+title: Examen Psicometrico
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: guia de estudio para examen psicometrico. inteligencia, habilidad verbal, matematica, abstracta
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/gratis.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Guía de Estudio - Exámenes Psicométricos
+    # Hero subtitle (optional)
+    subtitle: Preparate para tu examen de ingreso a la universidad, preparatoria o puesto de trabajo.
+    # Button text
+    buttontext: Comprar la guía
+    # Where the main hero button links to
+    buttonlink: "#section3"
+    # Hero image (from static/images/___)
+    image: illustrations/meta_lejos.jpeg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    image_footer: examen-logo.png
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  # - title: Que són?
+  #   url: /posts/que-son/
+  #   button: true
+  # - title: Como són?
+  #   url: /
+  #   button: true
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  - title: Comprar
+    url: "#section3"
+    button: true
+  section1:
+    title: Invierte en tu futuro
+    subtitle1: No escatimes en tu preparación para ese importante examen. Nuestra guía es el  único material que necesitas para entender que son y como presentar con éxito uno de ellos.
+    subtitle2: Exámenes de admisión a educación media y superior, exámenes de ingreso a puestos de trabajo, todos ellos comparten similitudes.
+    tiles:
+    - title: Habilidad matemática
+      icon: mouse-globe
+      text: En una de estas pruebas puedes esperar que se te ofrezca información numérica, tal como tablas, gráficas o series numéricas.
+      url: /
+      buttonText: Free trial
+    - title: Habilidad verbal
+      icon: laptop-cloud
+      text: En un examen de razonamiento verbal se mide tu habilidad para entender la lógica entre varios enunciados.
+      url: /
+      buttonText: Razonamiento abstracto
+    - title: Razonamiento deductivo o abstracto
+      icon: plug-cloud
+      text: Estos exámenes buscan medir tu capacidad de reconocer patrones geométricos.
+      url: /
+      buttonText: Get started
+  section2:
+    title: Los diferentes tipos de exámenes
+    subtitle: Una corta descripción
+    features:
+    - title: Habilidad matemática
+      text: Los exámenes de razonamiento numérico son de los más comunes dentro de la familia de los exámenes de habilidad. En una de estas pruebas puedes esperar que se te ofrezca información numérica, tal como tablas, gráficas o series numéricas.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Habilidad verbal
+      text: En un examen de razonamiento verbal se mide tu habilidad para entender la lógica entre varios enunciados y para interpretar ideas en un texto o pasaje. Es importante entender que este tipo de exámenes no miden tu conocimiento sobre un tema en particular.
+      icon: doc-sync
+    - title: Razonamiento deductivo o abstracto
+      text: En general, estos exámenes buscan medir tu capacidad de reconocer patrones geométricos. Además, de medir tu habilidad para trabajar con información que no te es familiar y encontrar soluciones. Normalmente, un buen resultado implica que la persona tiende a tener una buena capacidad para pensar conceptual- y analíticamente.
+      icon: mobile-feed
+  section_ctn_l_1:
+    title: Explicaciones extensas y detalladas.
+    subtitle: En mas de 50 páginas de contenido explica a detalle y con multitud de ejemplos los diferentes tipos de exámenes y ejercicios. En un lenguaje accesible para todos, es una de las mejores maneras de mejorar tu desempeño.
+    image: illustrations/contenido2.png
+  section_ctn_r_1:
+    title: Amplia variedad de ejemplos
+    subtitle: La mejor manera de entender y resolver mejor los exámenes psicométricos es a través de ejemplos y practica. Para cada tipo de examen de incluimos varios tipos de ejercicios comunes.
+    image: illustrations/contenido_1.png
+  section_ctn_l_2:
+    title: Habilidad matemática
+    subtitle: Los exámenes de razonamiento numérico son de los más comunes dentro de la familia de los exámenes de habilidad. En una de estas pruebas puedes esperar que se te ofrezca información numérica, tal como tablas, gráficas o series numéricas.
+    image: illustrations/matematica.jpeg
+  section_ctn_r_2:
+    title: Habilidad verbal
+    subtitle: En un examen de razonamiento verbal se mide tu habilidad para entender la lógica entre varios enunciados y para interpretar ideas en un texto o pasaje. Es importante entender que este tipo de exámenes no miden tu conocimiento sobre un tema en particular.
+    image: illustrations/verbal.jpg
+  section_ctn_l_3:
+    title: Razonamiento inductivo o abstracto
+    subtitle: En general, estos exámenes buscan medir tu capacidad de reconocer patrones geométricos. Además, de medir tu habilidad para trabajar con información que no te es familiar y encontrar soluciones. Normalmente, un buen resultado implica que la persona tiende a tener una buena capacidad para pensar conceptual- y analíticamente.
+    image: illustrations/abstracto.png
+  section3:
+    title: COMPRAR LA GUÌA
+    subtitle: Aceptamos paypal y tarjetas de credito
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4_1:
+    title: Lo que dicen nuestros clientes
+    subtitle: Tu opinión es importante, escribenos por Facebook.
+    clients1:
+    - name: Alejandro Mandoval
+      quote: Utilicé la guía para prepararme para el examen de admisión a la universidad. Los ejemplos y el examen de prueba que te incluye fueron muy similares a los reales. La recomiendo para estudiantes que desean ingresar a una universidad.
+      job: Estudiante universitario - Noviembre 2019
+      img: student.jpg
+    - name: Jorge Gutierrez
+      quote: Hoy en día mas y mas empresas hacen exámenes psicométricos a sus candidatos. Un amigo me recomendó esta guía y quede muy satisfecho con ella. Que puedo decir, resulte muy bien colocado en esta prueba. Gracias!
+      job: Empleado en contaduria - Agosto 2019
+      img: employee.jpg
+    - name: Alejandra Marina
+      quote: Estaba muy preocupada por el examen psicométrico para ingresar a la uni. La guía me ayudo a entender los conceptos, y el examen de prueba fue genial para saber que esperar. Espero les ayude tanto como a mi.
+      job: Estudiante - Octubre 2019
+      img: mujer_joven.jpg
+  section4_2:
+    title: Mas opiniones de nuestros clientes
+    subtitle: Tu opinión es importante, escribenos por Facebook.
+    clients1:
+    - name: Andrés Figueroa
+      quote: Acabo de iniciar en mi primer trabajo como ingeniero. Una de las etapas de selección consistió en una serie de exámenes psicométricos. Puedo confirmar que esta guía me dio una ventaja sobre los demás candidatos.
+      job: Ingeniero - Septiembre 2019
+      img: joven2.jpg
+    - name: Monica Romero
+      quote: Algunos compañeros y yo utilizamos la guía para entender mejor los exámenes psicométricos antes de el examen de ingreso a la universidad. La mayoría de nosotros obtuvimos muy buenos resultados.
+      job: Estudiante universitaria - Agosto 2019
+      img: mujer_2.png
+    - name: Jesus Uribe
+      quote: Antes de mi examen de ingreso no sabia que eran los examen psicométricos. Esta guía me llevo de no saber nada al respecto a aprobar mi examen de admisión. Se las recomiendo!
+      job: Estudiante - Noviembre 2019
+      img: joven_1.png
+  section6:
+    title: Vicente Guerrero
+    subtitle1: Vicente Guerrero es miembro de Mensa International, una organización que admite a personas con un alto IQ.
+    subtitle2: La guía es el producto de varios años de estudio de los exámenes psicométricos mas comunes en México y América Latina en general.
+    image: illustrations/profile_picture.png
+#  section5: true
+  # footer:
+  #   # Logo (from /images/logos/___)
+  #   logo: fresh-white-alt.svg
+  #   # Social Media Title
+  #   socialmediatitle: Follow Us
+  #   # Social media links (GitHub, Twitter, etc.). All are optional.
+  #   socialmedia:
+  #   - link: https://github.com/lucperkins/github-fresh
+  #     # Icons are from Font Awesome
+  #     icon: github
+  #   - link: https://dribbble.com/#
+  #     icon: dribbble
+  #   - link: https://facebook.com/#
+  #     icon: facebook
+  #   - link: https://twitter.com/lucperkins
+  #     icon: twitter
+  #   - link: https://bitbucket.org/#
+  #     icon: bitbucket
+  #   bulmalogo: true
+  #   quicklinks:
+  #     column1:
+  #       title: "Product"
+  #       links:
+  #       - text: Discover features
+  #         link: /
+  #       - text: Why choose our product?
+  #         link: /
+  #       - text: Compare features
+  #         link: /
+  #       - text: Our roadmap
+  #         link: /
+  #       - text: AGB
+  #         link: /agb
+  #     column2:
+  #       title: "Docs"
+  #       links:
+  #       - text: Get started
+  #         link: /
+  #       - text: User guides
+  #         link: /
+  #       - text: Admin guide
+  #         link: /
+  #       - text: Developers
+  #         link: /
+  #     column3:
+  #       title: "Blog"
+  #       links:
+  #       - text: Latest news
+  #         link: /blog/first
+  #       - text: Tech articles
+  #         link: /blog/second

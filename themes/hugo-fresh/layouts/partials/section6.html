@@ -1,0 +1,35 @@
+{{- $section := .Site.Params.section6 }}
+{{- $title    := index $section "title" }}
+{{- $subtitle1 := index $section "subtitle1" }}
+{{- $subtitle2 := index $section "subtitle2" }}
+{{- $image    := index $section "image" }}
+<section id="section4" class="section is-medium section-secondary">
+  <div class="container">
+
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1 landing-caption">
+        <h1 class="title is-1 is-bold is-spaced">
+          {{ $title }}
+        </h1>
+        {{ with $subtitle1 }}
+        <h2 class="subtitle is-5">
+          {{ . }}
+        </h2>
+        {{ end }}
+        {{ with $subtitle2 }}
+        <h2 class="subtitle is-5">
+          {{ . }}
+        </h2>
+        {{ end }}
+        <h2 class="subtitle is-5">
+          <a href="https://www.mensa.org/" target="_blank">Mensa International</a>
+        </h2>
+      </div>
+      <div class="column is-5 is-offset-1">
+        <figure class="image is-4by3">
+          <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>

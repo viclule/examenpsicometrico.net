@@ -1,0 +1,41 @@
+{{- $section4 := .Site.Params.section4_2 }}
+{{- $title    := index $section4 "title" }}
+{{- $subtitle := index $section4 "subtitle" }}
+{{- $clients1  := index $section4 "clients1" }}
+<section id="section4" class="section is-medium section-secondary">
+  <div class="container">
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 light-text is-spaced">{{ $title }}</h2>
+      {{- with $subtitle }}
+      <h3 class="subtitle is-5 light-text">{{ . }}</h3>
+      {{- end }}
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns is-vcentered">
+        {{- range $clients1 }}
+        <div class="column is-4">
+          <figure class="testimonial">
+            <blockquote>
+              {{ .quote }}
+            </blockquote>
+            <div class="author">
+              <img src="{{ printf "/images/illustrations/faces/%s" (string .img) | relURL }}" alt=""/>
+              <h5>{{ .name }}</h5>
+              <span>{{ .job }}</span>
+            </div>
+          </figure>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+
+    <p class="has-text-centered mt-20">
+        <div align="center">
+          <h3 class="subtitle is-5 light-text">Siguenos en Facebook! Ya somos mas de 2000!</h3>
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fexamenpsicometricos%2F&width=225&layout=button_count&action=like&size=large&share=true&height=46&appId" width="225" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      </div>
+    </p>
+    </div>
+</section>

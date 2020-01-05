@@ -1,0 +1,25 @@
+{{- $section3   := .Site.Params.section3 }}
+{{- $title      := index $section3 "title" }}
+{{- $subtitle   := index $section3 "subtitle" }}
+{{- $image      := index $section3 "image" }}
+{{- $buttonText := index $section3 "buttontext" }}
+{{- $buttonLink := index $section3 "buttonlink" }}
+<section id="section3" class="section section-feature-grey is-medium">
+  <div class="container">
+
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+    </div>
+
+    <p class="has-text-centered mt-20">
+      <div align="center">
+        <a data-dpd-type="widget" data-text="Comprar ahora" data-variant="landscape" data-description="Contiene explicación, ejemplos y examenes de prueba sobre los temas:
+        - Habilidad verbal
+        - Habilidad matemática
+        - Razonamiento inductivo / abstracto" data-bg-color="111afc" data-bg-color-hover="1f29ff" data-text-color="ffffff" data-background-color="c4e8fc" data-border-color="000000" data-title-color="000000" data-price-color="111afc" data-desc-color="000000" data-lightbox="1" href="https://examenpsicomtrico-net.dpdcart.com/cart/add?product_id=139230&amp;method_id=148686">0,Guía de estudio - Examen Psicométrico - Habilidades</a><script src="https://examenpsicomtrico-net.dpdcart.com/dpd.js"></script>
+      </div>
+	  </p>
+  </div>
+</section>
