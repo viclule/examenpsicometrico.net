@@ -1,4 +1,4 @@
-baseURL: http://examenpsicometrico.net/
+baseURL: /
 publishDir: docs
 languageCode: en-us
 title: Examen Psicometrico
